@@ -179,9 +179,7 @@ Expected Output
 25 < 39
 25 <= 39 */
 
-
-/*
-        System.out.print("Input first integer:");
+   /*     System.out.print("Input first integer:");
         int first = input.nextInt();
         System.out.print("Input second integer:");
         int second = input.nextInt();
@@ -190,12 +188,18 @@ Expected Output
             System.out.println(first + " !=" + second);
             System.out.println(first + " <= " + second);
 
-    }
+    }else {
+            System.out.println(second + " !=" + first);
+        }
         if (first < second){
             System.out.println(first + " < " + second);
-            } */
+            } else{
+            System.out.println(second + " < " + first);
+        }
+*/
 
 
+        
 
 
 
